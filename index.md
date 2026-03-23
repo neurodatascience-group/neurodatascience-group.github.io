@@ -20,10 +20,4 @@ This site is currently under construction. Please feel free to [_contribute_](./
 * [Standardized data formats](./formats.html)
 
 
-<!-- 
-I'm glad that you got to spend time with Marina
-I know you're worried about in US
-She has done so much to look after me
-I will do my best to look after her 
--->
 
