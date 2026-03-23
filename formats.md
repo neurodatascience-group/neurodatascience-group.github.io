@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+## Standardized formats for brain activity data
+
+Please find a list of commonly used data formats. 
+
+| | Format | Description | Citation | Modality(s) |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | **[EDF, EDF+](https://www.edfplus.info/)** | An early standardized data format used for sleep recordings (EEG, respiration, EMG, etc.). Files include a header record with subject info, time, and signal identification. | (Kemp et al., 1992; Kemp and Olivan 2003) | Electrophysiology |
+| 2 | **[MEF](https://github.com/msel-lab/mef-v3)** | Open-source software for high-volume neural data. Features range encoding for compression, 128-bit encryption for patient security, and redundancy checks. | (Brinkmann et al., 2009) | Electrophysiology |
+| 3 | **[Orca](https://github.com/AllenInstitute/borg)** | Also known as BORG; developed by the Allen Institute for electrophysiology and optophysiology data. It is built upon the HDF5-based format. | (Godfrey, 2014; Friedsam, 2016) | Electrophysiology |
+| 4 | **[KWIK](https://github.com/klusta-team/kwik)** | Part of the Klusta suite for spike sorting. These HDF5-based files store spike times, clusters, and associated metadata. | (Kadir et al., 2014) | Electrophysiology |
+| 5 | **[NEO](https://neuralensemble.org/neo/)** | Successor to Neuroshare API; provides a design specification for core neuroscience objects to decouple data representation from downstream analysis. | (Garcia et al., 2014) | Electrophysiology |
+| 6 | **[BRAINformat](https://github.com/oruebel/brainformat)** | An open-source library defining application-independent design concepts using HDF5 to create a general framework for scientific data standardization. | (Rübel et al., 2016) | Electrophysiology |
+| 7 | **[ONE](https://github.com/int-brain-lab/ONE)** | Developed by the IBL consortium for multi-lab sharing. Uses an `object.attribute.extension` naming scheme compatible across various file formats. | (IBL et al., 2023) | Electrophysiology, Imaging, Other |
+| 8 | **[NWB](https://www.nwb.org/)** | A common standard for sharing and archiving neurophysiology data, including intracellular/extracellular electrophysiology, optical physiology, and behavior. | (Teeters et al., 2015; Rubel et al., 2022) | Electrophysiology, Other |
+| 9 | **[DICOM](https://www.dicomstandard.org/)** | The international standard for medical imaging (MRI, CT, X-ray). Defines formats for clinical data exchange and quality across radiology and cardiology. | (NEMA, 1993) | Imaging |
+| 10 | **[NIFTI](https://nifti.nimh.nih.gov/)** | Designed specifically for brain imaging; packages image data and metadata into a single file to simplify sharing and neuroimaging analysis. | (Cox et al., 2004) | Imaging |
+| 11 | **[NIX](https://github.com/G-Node/nix)** | A hierarchical and extensible format designed to store diverse data including electrophysiology, imaging, and behavioral datasets. | (Martone 2014) | Imaging |
+| 12 | **[BIDS](https://bids.neuroimaging.io/)** | A standard for organizing and describing neuroimaging (and later EEG) data to promote reproducibility and interoperability across labs and tools. | (Gorgolewski et al., 2016) | Imaging |
+
+
+
+[back](./)
