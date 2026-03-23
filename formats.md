@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Formats
 ---
 
 ## Standardized formats for brain activity data
@@ -23,4 +24,4 @@ Please find a list of commonly used data formats.
 
 
 
-&larr; [back](./)
+&larr; [Home]({{ '/' }})
