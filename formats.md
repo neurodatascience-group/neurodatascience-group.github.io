@@ -23,4 +23,4 @@ Please find a list of commonly used data formats.
 
 
 
-[back](./)
+&larr; [back](./)

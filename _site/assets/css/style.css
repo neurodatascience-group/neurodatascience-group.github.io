@@ -68,6 +68,12 @@
   color: #90a959;
 }
 
+/* Global Styles - KWC */
+html, body {
+  height: 100%; /* Ensures the body spans the full height of the viewport */
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -75,7 +81,21 @@ body {
   color: #eaeaea;
   font-size: 16px;
   line-height: 1.5;
+  display: flex; /* add a flexbox - KWC */
+  flex-direction: column; /* Stacks children vertically - KWC */
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height - KWC */
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+main {
+  flex: 1 0 auto; /* The main content grows to fill available space and pushes the footer down */
+}
+
+/* Footer - KWC */
+footer {
+  /* Add your desired footer styling */
+  padding: 10px;
+  text-align: center;
 }
 
 /* General & 'Reset' Stuff */

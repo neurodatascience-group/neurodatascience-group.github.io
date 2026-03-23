@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
 
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico?' | relative_url }}" >
+
 {% seo %}
   </head>
 
@@ -29,10 +31,14 @@
       </div>
     </header>
 
+    <main>
     <div class="container">
       <section id="main_content">
         {{ content }}
       </section>
     </div>
+   </main>
+
+    <footer style="font-size: 0.8rem;color:grey">Built with love by <a href="https://kwcooper.xyz" target="_blank">Keiland</a> | &copy; 2026 </footer>
   </body>
 </html>
