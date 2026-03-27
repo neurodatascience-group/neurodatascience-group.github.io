@@ -5,7 +5,7 @@ title: Repositories
 
 ## Neuroscience data repositories
 
-This table provides an overview of key data repositories and sharing platforms essential for modern neuroscience research. It categorizes both domain-specific archives—specializing in electrophysiology, neuroimaging, and genomic data—and general-purpose repositories that support open science practices across multiple scientific disciplines. Each entry includes a brief functional description, primary citations, and direct links to the platforms to facilitate data discovery, reuse, and standardized project management.
+This table provides an overview of key data repositories and sharing platforms essential for modern neuroscience research. It categorizes both domain-specific archives—specializing in electrophysiology, neuroimaging, and genomic data—and general-purpose repositories that support open science practices across multiple scientific disciplines. Each entry includes a brief functional description, primary citations, and direct links to the platforms to facilitate data discovery, reuse, and standardized project management. Notice something missing? Please [contribute](./contribute){:target="_blank" rel="noopener noreferrer"}.
 
 | # | Repository | Description | Discipline |
 |:--|:-----------|:------------|:-----------|

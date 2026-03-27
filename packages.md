@@ -5,7 +5,7 @@ title: Packages
 
 ## Open-source neuroscience software packages
 
-This table summarizes a diverse selection of computational software packages and toolboxes widely utilized for the analysis of neural and behavioral data. It highlights open-source resources across Python, R, and MATLAB, covering critical analytical domains such as signal processing, spike inference from calcium imaging, graph theoretical network analysis, and neuroanatomical modeling. By providing direct access to the source code and primary literature, this list serves as a guide for researchers seeking validated, high-performance tools to enhance the reproducibility and efficiency of their neuroscience workflows.
+This table summarizes a diverse selection of computational software packages and toolboxes widely utilized for the analysis of neural and behavioral data. It highlights open-source resources across Python, R, and MATLAB, covering critical analytical domains such as signal processing, spike inference from calcium imaging, graph theoretical network analysis, and neuroanatomical modeling. By providing direct access to the source code and primary literature, this list serves as a guide for researchers seeking validated, high-performance tools to enhance the reproducibility and efficiency of their neuroscience workflows. Notice something missing? Please [contribute](./contribute){:target="_blank" rel="noopener noreferrer"}.
 
 
 | # | Package | Description | Citation | Topic | Language |
