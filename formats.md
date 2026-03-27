@@ -5,7 +5,7 @@ title: Formats
 
 ## Standardized formats for brain activity data
 
-Please find a list of commonly used data formats. 
+Please find a list of commonly used data formats. Notice something missing? Please [contribute](./contribute){:target="_blank" rel="noopener noreferrer"}.
 
 | # | Format | Description | Citation | Modality |
 | :--- | :--- | :--- | :--- | :--- |
@@ -26,3 +26,4 @@ Please find a list of commonly used data formats.
 
 
 &larr; [Home]({{ '/' }})
+<p style="font-size: 0.7em; color: grey; text-align: right;">Last updated: 26 March, 2026</p>
