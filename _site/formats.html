@@ -30,7 +30,7 @@
     <meta property="og:image" content="https://neurodatascience.org/assets/images/social_preview.png" />
     <meta property="og:url" content="https://neurodatascience.org" />
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Formats | Neurodatascience.org</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Formats" />
@@ -48,6 +48,16 @@
 <!-- End Jekyll SEO tag -->
 
   </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8773C74LQF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8773C74LQF');
+  </script>
 
   <body>
 
@@ -78,97 +88,97 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: left"> </th>
+      <th style="text-align: left">#</th>
       <th style="text-align: left">Format</th>
       <th style="text-align: left">Description</th>
       <th style="text-align: left">Citation</th>
-      <th style="text-align: left">Modality(s)</th>
+      <th style="text-align: left">Modality</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: left">1</td>
-      <td style="text-align: left"><strong><a href="https://www.edfplus.info/">EDF, EDF+</a></strong></td>
-      <td style="text-align: left">An early standardized data format used for sleep recordings (EEG, respiration, EMG, etc.). Files include a header record with subject info, time, and signal identification.</td>
-      <td style="text-align: left">(Kemp et al., 1992; Kemp and Olivan 2003)</td>
+      <td style="text-align: left"><strong><a href="https://bitbucket.org/oruebel/brainformat/" target="_blank" rel="noopener noreferrer">BRAINformat</a></strong></td>
+      <td style="text-align: left">The BRAINformat library aims to create a general framework for standardization of scientific data. It defines application-independent design concepts and modules, is open source, and utilizes the HDF5 data format.</td>
+      <td style="text-align: left"><a href="https://www.biorxiv.org/content/10.1101/024521v1" target="_blank" rel="noopener noreferrer">Rübel et al., 2016</a></td>
       <td style="text-align: left">Electrophysiology</td>
     </tr>
     <tr>
       <td style="text-align: left">2</td>
-      <td style="text-align: left"><strong><a href="https://github.com/msel-lab/mef-v3">MEF</a></strong></td>
-      <td style="text-align: left">Open-source software for high-volume neural data. Features range encoding for compression, 128-bit encryption for patient security, and redundancy checks.</td>
-      <td style="text-align: left">(Brinkmann et al., 2009)</td>
+      <td style="text-align: left"><strong><a href="https://github.com/kwikteam/klusta" target="_blank" rel="noopener noreferrer">KWIK</a></strong></td>
+      <td style="text-align: left">KWIK files were developed for the Klusta suite spike sorting software to contain the results of the spike sorting session. Based on HDF5, these files include information about the spike times and spike clusters, as well as all the metadata.</td>
+      <td style="text-align: left"><a href="https://doi.org/10.1162/NECO_a_00661" target="_blank" rel="noopener noreferrer">Kadir et al., 2014</a>; <a href="https://doi.org/10.1038/nn.4268" target="_blank" rel="noopener noreferrer">Rossant et al. 2016</a></td>
       <td style="text-align: left">Electrophysiology</td>
     </tr>
     <tr>
       <td style="text-align: left">3</td>
-      <td style="text-align: left"><strong><a href="https://github.com/AllenInstitute/borg">Orca</a></strong></td>
-      <td style="text-align: left">Also known as BORG; developed by the Allen Institute for electrophysiology and optophysiology data. It is built upon the HDF5-based format.</td>
-      <td style="text-align: left">(Godfrey, 2014; Friedsam, 2016)</td>
+      <td style="text-align: left"><strong><a href="https://neo.readthedocs.io/" target="_blank" rel="noopener noreferrer">NEO</a></strong></td>
+      <td style="text-align: left">NEO succeeded the Neuroshare API, which provided a design specification for core neuroscience data objects. NEO similarly aims to decouple the data representation step in analysis pipelines to create a unified format facilitating downstream analysis in software pipelines, packages, and frameworks.</td>
+      <td style="text-align: left"><a href="https://doi.org/10.3389/fninf.2014.00010" target="_blank" rel="noopener noreferrer">Garcia et al., 2014</a></td>
       <td style="text-align: left">Electrophysiology</td>
     </tr>
     <tr>
       <td style="text-align: left">4</td>
-      <td style="text-align: left"><strong><a href="https://github.com/klusta-team/kwik">KWIK</a></strong></td>
-      <td style="text-align: left">Part of the Klusta suite for spike sorting. These HDF5-based files store spike times, clusters, and associated metadata.</td>
-      <td style="text-align: left">(Kadir et al., 2014)</td>
-      <td style="text-align: left">Electrophysiology</td>
+      <td style="text-align: left"><strong><a href="https://docs.internationalbrainlab.org/" target="_blank" rel="noopener noreferrer">ONE</a></strong></td>
+      <td style="text-align: left">Developed to standardize data sharing among multiple laboratories involved in the International Brain Laboratory (IBL) consortium, ONE defines a set of conventions for naming and organizing data files. Because ONE utilizes a ‘object.attribute.extension’ naming scheme, it can be used across file formats.</td>
+      <td style="text-align: left"><a href="http://dx.doi.org/10.1038/s41586-025-09226-1" target="_blank" rel="noopener noreferrer">International Brain Laboratory et al., 2023</a></td>
+      <td style="text-align: left">Electrophysiology, Optical imaging</td>
     </tr>
     <tr>
       <td style="text-align: left">5</td>
-      <td style="text-align: left"><strong><a href="https://neuralensemble.org/neo/">NEO</a></strong></td>
-      <td style="text-align: left">Successor to Neuroshare API; provides a design specification for core neuroscience objects to decouple data representation from downstream analysis.</td>
-      <td style="text-align: left">(Garcia et al., 2014)</td>
-      <td style="text-align: left">Electrophysiology</td>
+      <td style="text-align: left"><strong><a href="https://nwb.org/" target="_blank" rel="noopener noreferrer">NWB</a></strong></td>
+      <td style="text-align: left">NWB provides a common standard to share, archive, use, and build analysis tools for diverse neurophysiology data. Based on the HDF5 format, NWB was designed to support data from intracellular and extracellular electrophysiology, optical imaging, as well as behavioral data.</td>
+      <td style="text-align: left"><a href="https://doi.org/10.1016/j.neuron.2015.10.025" target="_blank" rel="noopener noreferrer">Teeters et al., 2015</a>; <a href="https://doi.org/10.7554/eLife.78362" target="_blank" rel="noopener noreferrer">Rubel et al., 2022</a></td>
+      <td style="text-align: left">Electrophysiology, Optical imaging</td>
     </tr>
     <tr>
       <td style="text-align: left">6</td>
-      <td style="text-align: left"><strong><a href="https://github.com/oruebel/brainformat">BRAINformat</a></strong></td>
-      <td style="text-align: left">An open-source library defining application-independent design concepts using HDF5 to create a general framework for scientific data standardization.</td>
-      <td style="text-align: left">(Rübel et al., 2016)</td>
-      <td style="text-align: left">Electrophysiology</td>
+      <td style="text-align: left"><strong><a href="http://crcns.org/files/data/nwb/h1/NWBh1_09_Keith_Godfrey.pdf" target="_blank" rel="noopener noreferrer">Orca</a></strong></td>
+      <td style="text-align: left">Orca (also called BORG) was developed by the Allen Institute for Brain Science and designed to store electrophysiology and optical imaging data. It is based on the HDF5 format.</td>
+      <td style="text-align: left"><a href="http://crcns.org/files/data/nwb/h1/NWBh1_09_Keith_Godfrey.pdf">Godfrey, 2014</a>; <a href="https://dash.harvard.edu/server/api/core/bitstreams/7312037e-6fe1-6bd4-e053-0100007fdf3b/content" target="_blank" rel="noopener noreferrer">Friedsam, 2016</a></td>
+      <td style="text-align: left">Electrophysiology, Optical imaging</td>
     </tr>
     <tr>
       <td style="text-align: left">7</td>
-      <td style="text-align: left"><strong><a href="https://github.com/int-brain-lab/ONE">ONE</a></strong></td>
-      <td style="text-align: left">Developed by the IBL consortium for multi-lab sharing. Uses an <code class="language-plaintext highlighter-rouge">object.attribute.extension</code> naming scheme compatible across various file formats.</td>
-      <td style="text-align: left">(IBL et al., 2023)</td>
-      <td style="text-align: left">Electrophysiology, Imaging, Other</td>
+      <td style="text-align: left"><strong><a href="https://g-node.github.io/nix/" target="_blank" rel="noopener noreferrer">NIX</a></strong></td>
+      <td style="text-align: left">The NIX file format was designed to store diverse neurophysiology data, including electrophysiology and optical imaging, as well as behavioral data. Based on HDF5, NIX aims to provide a flexible and robust standard for organizing and sharing complex neuroscience datasets in a hierarchical and extensible way.</td>
+      <td style="text-align: left"><a href="https://f1000research.com/documents/9-358" target="_blank" rel="noopener noreferrer">Martone, 2020</a>; <a href="https://doi.org/10.3389/conf.fninf.2014.18.00027">Stoewer et al. 2014</a></td>
+      <td style="text-align: left">Electrophysiology, Optical imaging</td>
     </tr>
     <tr>
       <td style="text-align: left">8</td>
-      <td style="text-align: left"><strong><a href="https://www.nwb.org/">NWB</a></strong></td>
-      <td style="text-align: left">A common standard for sharing and archiving neurophysiology data, including intracellular/extracellular electrophysiology, optical physiology, and behavior.</td>
-      <td style="text-align: left">(Teeters et al., 2015; Rubel et al., 2022)</td>
-      <td style="text-align: left">Electrophysiology, Other</td>
+      <td style="text-align: left"><strong><a href="https://www.edfplus.info/" target="_blank" rel="noopener noreferrer">EDF, EDF+</a></strong></td>
+      <td style="text-align: left">An early standardized data format, EDF was used for the storage of sleep recordings and included EEG, respiration, body temperature, EMG, and other related data. With EDF+, the format was expanded to provide additional flexibility.</td>
+      <td style="text-align: left"><a href="https://doi.org/10.1016/0013-4694(92)90009-7" target="_blank" rel="noopener noreferrer">Kemp et al., 1992</a>; <a href="https://doi.org/10.1016/S1388-2457(03)00123-8" target="_blank" rel="noopener noreferrer">Kemp &amp; Olivan, 2003</a></td>
+      <td style="text-align: left">EEG</td>
     </tr>
     <tr>
       <td style="text-align: left">9</td>
-      <td style="text-align: left"><strong><a href="https://www.dicomstandard.org/">DICOM</a></strong></td>
-      <td style="text-align: left">The international standard for medical imaging (MRI, CT, X-ray). Defines formats for clinical data exchange and quality across radiology and cardiology.</td>
-      <td style="text-align: left">(NEMA, 1993)</td>
-      <td style="text-align: left">Imaging</td>
+      <td style="text-align: left"><strong><a href="https://github.com/msel-source/meflib?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">MEF</a></strong></td>
+      <td style="text-align: left">MEF provides open source software to read, write, and process large volumes of neural data. It utilizes range encoding to provide a high degree of data compression, a 128-bit encryption system for securely storing patient information, and a redundancy check to verify the integrity of the compressed data.</td>
+      <td style="text-align: left"><a href="https://doi.org/10.1016/j.jneumeth.2009.03.022" target="_blank" rel="noopener noreferrer">Brinkmann et al., 2009</a></td>
+      <td style="text-align: left">EEG, Electrophysiology</td>
     </tr>
     <tr>
       <td style="text-align: left">10</td>
-      <td style="text-align: left"><strong><a href="https://nifti.nimh.nih.gov/">NIFTI</a></strong></td>
-      <td style="text-align: left">Designed specifically for brain imaging; packages image data and metadata into a single file to simplify sharing and neuroimaging analysis.</td>
-      <td style="text-align: left">(Cox et al., 2004)</td>
-      <td style="text-align: left">Imaging</td>
+      <td style="text-align: left"><strong><a href="https://bids.neuroimaging.io/" target="_blank" rel="noopener noreferrer">BIDS</a></strong></td>
+      <td style="text-align: left">BIDS is a standard for organizing and describing neuroimaging and EEG data to promote reproducibility and interoperability. It defines a structured format to arrange files and metadata in order to facilitate the processing and analysis of datasets across tools and the sharing across labs.</td>
+      <td style="text-align: left"><a href="https://doi.org/10.1038/sdata.2016.44" target="_blank" rel="noopener noreferrer">Gorgolewski et al., 2016</a></td>
+      <td style="text-align: left">EEG, Neuroimaging</td>
     </tr>
     <tr>
       <td style="text-align: left">11</td>
-      <td style="text-align: left"><strong><a href="https://github.com/G-Node/nix">NIX</a></strong></td>
-      <td style="text-align: left">A hierarchical and extensible format designed to store diverse data including electrophysiology, imaging, and behavioral datasets.</td>
-      <td style="text-align: left">(Martone 2014)</td>
-      <td style="text-align: left">Imaging</td>
+      <td style="text-align: left"><strong><a href="https://en.wikipedia.org/wiki/Neuroimaging_Informatics_Technology_Initiative" target="_blank" rel="noopener noreferrer">NIFTI</a></strong></td>
+      <td style="text-align: left">The NIFTI file format is designed to simplify the storage of neuroimaging data. It packages both image data and its associated metadata into a single file to facilitate analysis and sharing.</td>
+      <td style="text-align: left"><a href="https://www.nitrc.org/docman/view.php/26/204/TheNIfTI" target="_blank" rel="noopener noreferrer">Cox et al., 2004</a></td>
+      <td style="text-align: left">Neuroimaging</td>
     </tr>
     <tr>
       <td style="text-align: left">12</td>
-      <td style="text-align: left"><strong><a href="https://bids.neuroimaging.io/">BIDS</a></strong></td>
-      <td style="text-align: left">A standard for organizing and describing neuroimaging (and later EEG) data to promote reproducibility and interoperability across labs and tools.</td>
-      <td style="text-align: left">(Gorgolewski et al., 2016)</td>
-      <td style="text-align: left">Imaging</td>
+      <td style="text-align: left"><strong><a href="https://www.dicomstandard.org/" target="_blank" rel="noopener noreferrer">DICOM</a></strong></td>
+      <td style="text-align: left">DICOM is an international standard for medical imaging. It defines the formats for medical images that can be exchanged with the data and quality necessary for clinical use. This format is widely used in healthcare (X-ray, CT, MRI, ultrasound, etc.) as well as in neuroimaging.</td>
+      <td style="text-align: left"><a href="https://www.dicomstandard.org/" target="_blank" rel="noopener noreferrer">NEMA, 1993</a></td>
+      <td style="text-align: left">Neuroimaging, Other</td>
     </tr>
   </tbody>
 </table>
