@@ -13,7 +13,7 @@ However, this relationship has not simply been unidirectional as there have been
 
 
 ## Save the link and come back soon! 
-This site is currently under construction. Please feel free to [_contribute_](./contribute), or click around some of the other pages for a glimpse of what we're aiming to build: 
+This site is currently under construction. Please feel free to [_contribute_](./contribute){:target="_blank" rel="noopener noreferrer"}, or click around some of the other pages for a glimpse of what we're aiming to build: 
 
 * [Open source neuro-data repositories](./repositories.html)
 * [A working list of neuroscience data analysis packages](./packages.html)
