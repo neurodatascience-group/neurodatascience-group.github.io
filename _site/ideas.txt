@@ -7,4 +7,7 @@ A short list of some ideas:
 - Learning to code resources
 - Books, books, books (courses?)
 
---  --
+-- Cool additions --
+add logic that sources info from listed github repositories and keeps it up to date automatically 
+
+Workshops: https://cellfate.uci.edu/neurodatascience/
